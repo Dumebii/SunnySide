@@ -1,0 +1,188 @@
+
+body {
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+}
+/* Title and Nav-Bar  */
+#title {
+    background-color: #42C2FF;
+    text-align: center;
+    background-image: url('../images/desktop/image-header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 400px;
+    padding-top: 50px;
+}
+
+.arrow {
+    width: 4%;
+    height: 4%;
+    position: relative;
+    left: 40rem;
+    top: 8rem;
+}
+.btn {
+    border-radius: 30%;
+}
+.btn:hover {
+    background-color: #3AB4F2;
+}
+.title-text {
+    margin-top: 3rem;
+    font-weight: 600;
+}
+.nav-link, .title-text {
+    color: hsl(0, 0%, 100%);
+}
+
+/* Testimonials  */
+#testimonials {
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding: 8rem 10rem;
+}
+.testimonial-pic {
+    border-radius: 100%;
+}
+.testimonial-text {
+    margin-bottom: 7rem;
+    color: hsl(210, 4%, 67%);
+}
+.testimonials > p {
+    color: hsl(232, 10%, 55%);
+}
+/* Product  */
+#products {
+    text-align: center;
+}
+.graphic-design {
+    background-image: url('../images/desktop/image-graphic-design.jpg');
+}
+.Photography {
+    background-image: url('../images/desktop/image-photography.jpg');
+}
+.Photography, .graphic-design {
+    background-color: inherit;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 300px;
+    padding-bottom: 100px;
+    overflow-x: hidden;
+}
+.product-text {
+    margin-top: 10rem;
+}
+
+.col-lg-6 {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.product-image {
+    width: 100%;
+    height: 100%;
+}
+.overflowing {
+    overflow-x: hidden;
+}
+
+
+/* footer */
+.footer {
+    background-color: #9CDACB;
+    justify-content: space-between;
+    padding: 5rem 10rem;
+    text-align: center;
+    line-height: 2rem;
+}
+.end-navigation {
+    margin-top: 2.5rem;
+}
+.end-a {
+    padding: 0 2rem;
+    text-decoration: none;
+    color: hsl(168, 34%, 41%);
+}
+.end-a:hover {
+    color: hsl(0, 0%, 100%);
+
+}
+.foot {
+    padding: 0 1rem;
+    margin-top: 3rem;
+}
+.anchor {
+    margin: 0 1.5rem;
+}
+.fa-brands {
+    color: black;
+}
+.fa-brands:hover {
+    color: #ECECEC;
+}
+
+/* designs  */
+.standAlone {
+    width: 100%;
+    height: 100%;
+
+}
+.col-lg-3 {
+    margin: 0;
+    padding: 0;
+}
+#designs {
+    overflow-x: hidden;
+}
+
+@media only screen and (max-width: 500px) {
+    #title {
+        background-color: #42C2FF;
+        text-align: center;
+        background-image: url('../images/mobile/image-header.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 600px;
+        overflow-x: hidden;
+    }
+    .title-text-arrow {
+        display: block;
+    }
+    #products {
+        overflow-x: hidden;
+    }
+    .graphic-design {
+        background-image: url('../images/mobile/image-graphic-design.jpg');
+        color: hsl(167, 40%, 24%);
+    }
+    .Photography {
+        background-image: url('../images/mobile/image-photography.jpg');
+        color: hsl(198, 62%, 26%);
+    }
+    .product {
+        flex-direction: column-reverse;
+    }
+    .product-div {
+        display: block;
+    }
+    #testimonials {
+        display: block;
+        padding: 0;
+    }
+    .testimonial {
+        display: block;
+    }
+    .testimonial-pic, .col-lg-4 {
+        margin-bottom: 3rem;
+    }
+    #designs {
+        flex-wrap: wrap;
+    }
+    .end-navigation, .foot {
+        display: flex;
+        justify-content: center;
+    }
+
+
+}
